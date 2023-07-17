@@ -1,9 +1,13 @@
-import React from 'react'
+import PushNotificationPermission from "@/components/PushNotificationPermission";
+import React from "react";
 
 const index = () => {
   return (
-    <div>This profile</div>
-  )
-}
+    <div>
+      This profile
+      <PushNotificationPermission />
+    </div>
+  );
+};
 
-export default index
+export default index;
