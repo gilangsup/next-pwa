@@ -10,23 +10,23 @@ const BottomNavigation = () => {
         <li className="text-white">
           <Link href="/">
             <p className="flex flex-col items-center">
-              <AiFillHome size={30} />
+              <AiFillHome size={25} />
               Home
             </p>
           </Link>
         </li>
         <li className="text-white">
-          <Link href="/about">
+          <Link href="/profile">
             <p className="flex flex-col items-center">
-              <CgProfile size={30} />
+              <CgProfile size={25} />
               Profile
             </p>
           </Link>
         </li>
         <li className="text-white">
-          <Link href="/contact">
+          <Link href="/success">
             <p className="flex flex-col items-center">
-              <BiLogOut size={30} />
+              <BiLogOut size={25} />
               Log Out
             </p>
           </Link>
