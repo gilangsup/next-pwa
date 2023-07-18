@@ -5,7 +5,7 @@ import { BiLogOut } from "react-icons/bi";
 
 const BottomNavigation = () => {
   return (
-    <nav className="lg:hidden fixed bottom-0 left-0 w-full bg-gray-900 shadow-lg">
+    <nav className="lg:hidden fixed bottom-0 left-0 w-full bg-slate-500 shadow-lg">
       <ul className="flex justify-around py-2">
         <li className="text-white">
           <Link href="/">
